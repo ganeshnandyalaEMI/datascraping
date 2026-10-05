@@ -87,10 +87,10 @@ REPRODUCIBILITY
   # pip install playwright && playwright install chromium
 
   # Exercise 1 (all tasks including stretches)
-  python scrapers/glossier_scraper.py --variants --in --output data/glossier_products.csv
+  python scraping/glossier_scraper.py --variants --in --output data/glossier_products.csv
 
   # Exercise 2 (limit while testing)
-  python scrapers/cellarbrations_scraper.py --max-products 15 --output data/cellarbrations_whisky.csv
+  python scraping/cellarbrations_scraper.py --max-products 15 --output data/cellarbrations_whisky.csv
 
 
 ASSUMPTIONS
